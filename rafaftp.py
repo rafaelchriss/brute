@@ -24,7 +24,7 @@ for linha in file.readlines():
        s.send("QUIT\r\n")
     
        if re.search("230",resulta):
-              print "[+] ===> senha encontrada <=== %s [+]"%(linha)
+              print "[+] ===> sucesso <=== %s [+]"%(linha)
               break 
        else:
               print "[-] Acesso negado [-]\n"
